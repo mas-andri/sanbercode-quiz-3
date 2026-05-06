@@ -21,6 +21,7 @@ describe("Login Feature Validation", () => {
     cy.url().should("include", "/dashboard");
 
     cy.logout();
+    cy.wait(2000);
 
     // Validate logout success
     cy.url().should("include", "/auth/login");

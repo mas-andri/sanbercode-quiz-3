@@ -1,0 +1,26 @@
+{
+  "baseUrl": "https://api.escuelajs.co/api/v1",
+  "endpoints": {
+    "categories": "/categories",
+    "categoryById": "/categories/{id}",
+    "categoryBySlug": "/categories/slug/{slug}",
+    "categoryProducts": "/categories/{id}/products"
+  },
+  "existingCategory": {
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture"
+  },
+  "newCategory": {
+    "name": "SanberCode - Cypress API Test",
+    "image": "https://sanbercode.com/assets_new/images/f-homepage/illustrasi%201_07%200002.png"
+  },
+  "updatedCategory": {
+    "name": "SanberCode - Cypress API Test Update",
+    "image": "https://sanbercode.com/assets_new/images/f-homepage/illustrasi%201_07%200002.png"
+  },
+  "invalidId": 999999,
+  "schema": {
+    "requiredFields": ["id", "name", "slug", "image", "creationAt", "updatedAt"]
+  }
+}
